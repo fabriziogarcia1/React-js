@@ -1,13 +1,16 @@
 import './App.css';
-import { navbar } from './componentes/navbar';
+
+import  Navbar  from './componentes/navbar';
+import  Itemcontainer  from './componentes/Item/Itemcontainer';
 
 
 function App() {
   return (
-   <div>
-    {navbar}
-   </div>
+   <>
+     <Navbar />
+     <Itemcontainer />
+    
+   </>
   );
-};
-console.log(navbar)
+}
 export default App;
