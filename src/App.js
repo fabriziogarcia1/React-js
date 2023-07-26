@@ -1,6 +1,6 @@
 import './App.css';
 
-import  Navbar  from './componentes/navbar';
+import  Navbar  from './componentes/Navbar/navbar';
 import  Itemcontainer  from './componentes/Item/Itemcontainer';
 
 
