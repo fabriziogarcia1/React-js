@@ -7,14 +7,17 @@ export const Navbar = () => {
         <header >
         <div className="header">
             <nav className="navHeader">
-                <div>
+                <div className="Titulo">
                     <a href="#">Cine Black</a>
                 </div>
-            <a href="#">Peliculas 2023</a>
-            <a href="#">peliculas 2022</a>
-            <a href="#">Contacto</a>
-            <a href=""> <CartWidget /> </a> 
+                <div className="ItemsNavbar">
+                    <a href="#">Peliculas 2023</a>
+                    <a href="#">peliculas 2022</a>
+                    <a href="#">Contacto</a>
+                    <a href=""> <CartWidget /> </a> 
+                </div>
             </nav>
+            
         </div>
         </header>
         

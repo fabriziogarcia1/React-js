@@ -2,13 +2,29 @@
     display: flex;
     background-color: red;
     height: 3.5rem;
+    width: 100%;
 
 }
 .navHeader{
     display: flex;
+    width: 100vw;
+}
+.Titulo{
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    width: 120px;
+    margin-left: 10px;
 }
 a{
+    color: white;
+    font-size: 5em;
+    text-decoration: none;
+    margin: auto;
     font-size: 20px;
     margin-right: 20px;
-    padding: center;
+}
+.ItemsNavbar{
+    display: flex;
+    justify-content: flex-end;
 }

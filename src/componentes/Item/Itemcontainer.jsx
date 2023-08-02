@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import './card.css';
-import data from "../Imagenes/Peliculas.json";//Producto de peliculas
+import data from "../data/Peliculas.json";//Producto de peliculas
 
 export const ItemListContainer = () => {
     //const donde estan las peliculas

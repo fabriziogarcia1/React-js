@@ -1,0 +1,82 @@
+[
+    {
+     "id": "01",
+     "titulo": "Barbie",
+      "img": "./Imagenes/imagen.jpg",
+      "precio": "2000",
+      "descripcion": "Categoria: Comedia",
+      "cantidad" : "1"
+    },
+    {
+        "id": "02",
+        "titulo": "Joe Black",
+         "img":"./Imagenes/imagen02.jpg",
+         "precio": "1199",
+         "descripcion": "Categoria: Drama y Romantica",
+         "cantidad" : "1"
+       },
+       {
+        "id": "03",
+        "titulo": "El rey Leon",
+         "img":"./Imagenes/imagen03.jpg",
+         "precio": "999",
+         "descripcion": "Pancho y papas",
+         "cantidad" : "1"
+       },
+       {
+        "id": "04",
+        "titulo": "OppenHeimer",
+         "img":"./Imagenes/imagen04.jpg",
+         "precio": "55000",
+         "descripcion": "",
+         "cantidad" : "1"
+       },
+       {
+        "id": "05",
+        "titulo": "En busca de la felicidad.",
+         "img":"./Imagenes/imagen05.jpg",
+         "precio": "55000",
+         "descripcion": "Pancho y papas",
+         "cantidad" : "1"
+       },
+       {
+        "id": "06",
+        "titulo": "En busca de la felicidad.",
+         "img":"./Imagenes/imagen06.jpg",
+         "precio": "55000",
+         "descripcion": "Pancho y papas",
+         "cantidad" : "1"
+       },
+       {
+        "id": "07",
+        "titulo": "En busca de la felicidad.",
+         "img":"./Imagenes/imagen05.jpg",
+         "precio": "55000",
+         "descripcion": "Pancho y papas",
+         "cantidad" : "1"
+       },
+       {
+        "id": "08",
+        "titulo": "En busca de la felicidad.",
+         "img":"./Imagenes/imagen05.jpg",
+         "precio": "55000",
+         "descripcion": "Pancho y papas",
+         "cantidad" : "1"
+       },
+       {
+        "id": "09",
+        "titulo": "En busca de la felicidad.",
+         "img":"./Imagenes/imagen05.jpg",
+         "precio": "55000",
+         "descripcion": "Pancho y papas",
+         "cantidad" : "1"
+       },
+       {
+        "id": "10",
+        "titulo": "En busca de la felicidad.",
+         "img":"./Imagenes/imagen05.jpg",
+         "precio": "55000",
+         "descripcion": "Pancho y papas",
+         "cantidad" : "1"
+       }
+]
