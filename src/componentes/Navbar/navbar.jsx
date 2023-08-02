@@ -1,20 +1,23 @@
 import App from "../../App.js";
 import CartWidget  from "../cartwidget/carrito.jsx";
-
+import './navbar.css';
 
 export const Navbar = () => {
     return (
+        <header >
         <div className="header">
-            <nav>
+            <nav className="navHeader">
                 <div>
-                    <a href="#">titulo de Ecomerce</a>
+                    <a href="#">Cine Black</a>
                 </div>
-            <a href="#">Perfume de hombre</a>
-            <a href="#">Perfume de mujer</a>
+            <a href="#">Peliculas 2023</a>
+            <a href="#">peliculas 2022</a>
             <a href="#">Contacto</a>
             <a href=""> <CartWidget /> </a> 
             </nav>
         </div>
+        </header>
+        
     );
     
 }
