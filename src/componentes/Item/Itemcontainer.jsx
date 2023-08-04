@@ -31,7 +31,7 @@ export const ItemListContainer = () => {
                 <div className="cardPeliculas">
                     
                      <img  className = "cardImagen" src={pelicula.img} alt={pelicula.titulo} />
-                     <h2>{pelicula.titulo}</h2>
+                     <p>{pelicula.titulo}</p>
                      <p>${pelicula.precio}</p>
                      <p>{pelicula.descripcion}</p>
                 </div>

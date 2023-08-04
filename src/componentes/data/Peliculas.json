@@ -4,7 +4,7 @@
      "titulo": "Barbie",
       "img": "./Imagenes/imagen.jpg",
       "precio": "2000",
-      "descripcion": "Categoria: Comedia",
+      "descripcion": "Categoria: Comedia/Drama",
       "cantidad" : "1"
     },
     {
@@ -12,7 +12,7 @@
         "titulo": "Joe Black",
          "img":"./Imagenes/imagen02.jpg",
          "precio": "1199",
-         "descripcion": "Categoria: Drama y Romantica",
+         "descripcion": "Categoria: Drama/Romantica",
          "cantidad" : "1"
        },
        {
@@ -20,7 +20,7 @@
         "titulo": "El rey Leon",
          "img":"./Imagenes/imagen03.jpg",
          "precio": "999",
-         "descripcion": "Pancho y papas",
+         "descripcion": "Categoria: Musical/Infantil",
          "cantidad" : "1"
        },
        {
@@ -28,7 +28,7 @@
         "titulo": "OppenHeimer",
          "img":"./Imagenes/imagen04.jpg",
          "precio": "55000",
-         "descripcion": "",
+         "descripcion": "Categoria: Suspenso/Drama.",
          "cantidad" : "1"
        },
        {
@@ -36,47 +36,47 @@
         "titulo": "En busca de la felicidad.",
          "img":"./Imagenes/imagen05.jpg",
          "precio": "55000",
-         "descripcion": "Pancho y papas",
+         "descripcion": "Categoria: Drama",
          "cantidad" : "1"
        },
        {
         "id": "06",
-        "titulo": "En busca de la felicidad.",
+        "titulo": "Hombre en Llamas.",
          "img":"./Imagenes/imagen06.jpg",
          "precio": "55000",
-         "descripcion": "Pancho y papas",
+         "descripcion": "Categoria: Accion/Drama",
          "cantidad" : "1"
        },
        {
         "id": "07",
-        "titulo": "En busca de la felicidad.",
-         "img":"./Imagenes/imagen05.jpg",
+        "titulo": "Mi vecino Totoro.",
+         "img":"./Imagenes/imagen07.jpg",
          "precio": "55000",
-         "descripcion": "Pancho y papas",
+         "descripcion": "Categoria: Anime/Infantil",
          "cantidad" : "1"
        },
        {
         "id": "08",
-        "titulo": "En busca de la felicidad.",
-         "img":"./Imagenes/imagen05.jpg",
+        "titulo": "La mula.",
+         "img":"./Imagenes/imagen08.jpg",
          "precio": "55000",
-         "descripcion": "Pancho y papas",
+         "descripcion": "Categoria: Accion/Drama",
          "cantidad" : "1"
        },
        {
         "id": "09",
-        "titulo": "En busca de la felicidad.",
-         "img":"./Imagenes/imagen05.jpg",
+        "titulo": "El plan perfecto.",
+         "img":"./Imagenes/imagen09.jpg",
          "precio": "55000",
-         "descripcion": "Pancho y papas",
+         "descripcion": "Categoria: Accion/Suspenso",
          "cantidad" : "1"
        },
        {
         "id": "10",
-        "titulo": "En busca de la felicidad.",
-         "img":"./Imagenes/imagen05.jpg",
+        "titulo": "El Vuelo.",
+         "img":"./Imagenes/imagen10.jpg",
          "precio": "55000",
-         "descripcion": "Pancho y papas",
+         "descripcion": "Categoria: Accion/Drama",
          "cantidad" : "1"
        }
 ]

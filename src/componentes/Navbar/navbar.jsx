@@ -11,10 +11,12 @@ export const Navbar = () => {
                     <a href="#">Cine Black</a>
                 </div>
                 <div className="ItemsNavbar">
-                    <a href="#">Peliculas 2023</a>
-                    <a href="#">peliculas 2022</a>
-                    <a href="#">Contacto</a>
-                    <a href=""> <CartWidget /> </a> 
+                <ul>
+                    <li><link className="menu-link" href="/">Peliculas 2023</link></li>
+                    <li><link className="menu-link" href="/">peliculas 2022</link></li>
+                    <li><link className="menu-link" href="/Contacto">Contacto</link></li>
+                    <li><link className="menu-link" href="/"> <CartWidget /> </link></li>
+                </ul>
                 </div>
             </nav>
             
