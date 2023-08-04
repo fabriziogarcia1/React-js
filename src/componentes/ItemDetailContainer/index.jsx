@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export const ItemDetail = () =>{
+
+   
     return (
-        <h1>Detalle</h1>
+        <div>
+            
+        </div>
     )
 }
 export default ItemDetail;

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import './card.css';
 import data from "../data/Peliculas.json";//Producto de peliculas
+import { Link } from "react-router-dom";
 
 export const ItemListContainer = () => {
     //const donde estan las peliculas
@@ -34,6 +35,7 @@ export const ItemListContainer = () => {
                      <p>{pelicula.titulo}</p>
                      <p>${pelicula.precio}</p>
                      <p>{pelicula.descripcion}</p>
+                     <Link to={pelicula.id}>Ver mas</Link>
                 </div>
                 )
               })

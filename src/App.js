@@ -14,7 +14,7 @@ function App() {
 
            <Routes>
              <Route path='/'   element={<Itemcontainer />} /> //PAGINA DE INICIO
-             <Route path='/item' element={<ItemDetail/>}    /> //CARD SELECCIONADA
+             <Route path='/item/id' element={<ItemDetail/>}    /> //CARD SELECCIONADA
              <Route path='/Contacto' element={<Contacto/>}    />
            </Routes>
 
