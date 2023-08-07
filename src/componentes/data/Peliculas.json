@@ -2,7 +2,7 @@
     {
       "id": 1,
      "titulo": "Barbie",
-      "img": "./Imagenes/imagen.jpg",
+      "img": "../Imagenes/imagen.jpg",
       "precio": "2000",
       "descripcion": "Categoria: Comedia/Drama",
       "cantidad" : "1"
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "titulo": "Joe Black",
-         "img":"./Imagenes/imagen02.jpg",
+         "img":"../Imagenes/imagen02.jpg",
          "precio": "1199",
          "descripcion": "Categoria: Drama/Romantica",
          "cantidad" : "1"
@@ -19,7 +19,7 @@
        {
         "id": 3,
         "titulo": "El rey Leon",
-         "img":"./Imagenes/imagen03.jpg",
+         "img":"../Imagenes/imagen03.jpg",
          "precio": "999",
          "descripcion": "Categoria: Musical/Infantil",
          "cantidad" : "1"
@@ -27,7 +27,7 @@
        {
         "id": 4,
         "titulo": "OppenHeimer",
-         "img":"./Imagenes/imagen04.jpg",
+         "img":"../Imagenes/imagen04.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Suspenso/Drama.",
          "cantidad" : "1"
@@ -35,7 +35,7 @@
        {
         "id": 5,
         "titulo": "En busca de la felicidad.",
-         "img":"./Imagenes/imagen05.jpg",
+         "img":"../Imagenes/imagen05.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Drama",
          "cantidad" : "1"
@@ -43,7 +43,7 @@
        {
         "id": 6,
         "titulo": "Hombre en Llamas.",
-         "img":"./Imagenes/imagen06.jpg",
+         "img":"../Imagenes/imagen06.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Accion/Drama",
          "cantidad" : "1"
@@ -51,7 +51,7 @@
        {
         "id": 7,
         "titulo": "Mi vecino Totoro.",
-         "img":"./Imagenes/imagen07.jpg",
+         "img":"../Imagenes/imagen07.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Anime/Infantil",
          "cantidad" : "1"
@@ -59,7 +59,7 @@
        {
         "id": 8,
         "titulo": "La mula.",
-         "img":"./Imagenes/imagen08.jpg",
+         "img":"../Imagenes/imagen08.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Accion/Drama",
          "cantidad" : "1"
@@ -67,7 +67,7 @@
        {
         "id": 9,
         "titulo": "El plan perfecto.",
-         "img":"./Imagenes/imagen09.jpg",
+         "img":"../Imagenes/imagen09.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Accion/Suspenso",
          "cantidad" : "1"
@@ -75,7 +75,7 @@
        {
         "id": 10,
         "titulo": "El Vuelo.",
-         "img":"./Imagenes/imagen10.jpg",
+         "img":"../Imagenes/imagen10.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Accion/Drama",
          "cantidad" : "1"
