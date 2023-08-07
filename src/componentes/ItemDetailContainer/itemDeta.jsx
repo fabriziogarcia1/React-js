@@ -1,4 +1,5 @@
 import { useContext, useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const ItemDeta = ({item}) =>{
@@ -8,6 +9,7 @@ const ItemDeta = ({item}) =>{
     <p>{item.titulo}</p>
     <p>${item.precio}</p>
     <p>{item.descripcion}</p>
+   
    
 </div>
     )

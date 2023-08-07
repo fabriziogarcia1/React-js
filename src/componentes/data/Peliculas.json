@@ -40,7 +40,7 @@
          "cantidad" : "1"
        },
        {
-        "id": "6",
+        "id": 6,
         "titulo": "Hombre en Llamas.",
          "img":"./Imagenes/imagen06.jpg",
          "precio": "55000",
@@ -48,7 +48,7 @@
          "cantidad" : "1"
        },
        {
-        "id": "7",
+        "id": 7,
         "titulo": "Mi vecino Totoro.",
          "img":"./Imagenes/imagen07.jpg",
          "precio": "55000",
@@ -56,7 +56,7 @@
          "cantidad" : "1"
        },
        {
-        "id": "8",
+        "id": 8,
         "titulo": "La mula.",
          "img":"./Imagenes/imagen08.jpg",
          "precio": "55000",
@@ -64,7 +64,7 @@
          "cantidad" : "1"
        },
        {
-        "id": "09",
+        "id": 9,
         "titulo": "El plan perfecto.",
          "img":"./Imagenes/imagen09.jpg",
          "precio": "55000",
@@ -72,7 +72,7 @@
          "cantidad" : "1"
        },
        {
-        "id": "10",
+        "id": 10,
         "titulo": "El Vuelo.",
          "img":"./Imagenes/imagen10.jpg",
          "precio": "55000",

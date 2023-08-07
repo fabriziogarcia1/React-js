@@ -9,7 +9,7 @@ export const Navbar = () => {
         <div className="header">
             <nav className="navHeader">
                 <div className="Titulo">
-                    <Link to="#">Cine Black</Link>
+                    <Link to="/">Cine Black</Link>
                 </div>
                 <div className="ItemsNavbar">
                 <ul>
