@@ -1,10 +1,10 @@
 import './App.css';
 import  Navbar  from './componentes/Navbar/navbar';
-import  Itemcontainer  from './componentes/Item/Itemcontainer';
-import ItemDetail from './componentes/ItemDetailContainer';
+import  ItemListContainer  from './componentes/ItemListContainer/ItemListContainer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contacto from './componentes/pags/Contacto';
-
+import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer';
+import Cart from './componentes/ItemDetailContainer/cart';
 function App() {
   return (
    <>
@@ -12,15 +12,15 @@ function App() {
 
          <Navbar />
 
-           <Routes>
-             <Route path='/'   element={<Itemcontainer />} /> //PAGINA DE INICIO
-             <Route path='/item/id' element={<ItemDetail/>}    /> //CARD SELECCIONADA
+       <Routes>
+             {/*<Route path='/'   element={<ItemListContainer />} />*/ }
              <Route path='/Contacto' element={<Contacto/>}    />
-           </Routes>
-
-       
-
+             <Route path='/cart'   element={<Cart/>} /> 
+             
+             </Routes>
     </BrowserRouter>
+   
+    <ItemDetailContainer item ={1}/>
    </>
   );
 }

@@ -1,7 +1,8 @@
 .DivContenedor{
-    margin: auto;
+    
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
 }
 .cardPeliculas{
     height: 350px;
