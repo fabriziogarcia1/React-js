@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
     <p>{pelicula.titulo}</p>
     <p>${pelicula.precio}</p>
     <p>{pelicula.descripcion}</p>
-    <Link to={`/item`}>ver mas</Link>
+    <Link to={`/item/${pelicula.id}`}>ver mas</Link>
     
 </div>)
 }

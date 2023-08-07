@@ -1,4 +1,3 @@
-
 import React,{ useEffect, useState} from "react";
 import ItemDeta from "./itemDeta";
 import { pedirItemPorId } from "../pedirproductos/PeliculasCartelera";
