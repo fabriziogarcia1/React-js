@@ -5,7 +5,8 @@
       "img": "../Imagenes/imagen.jpg",
       "precio": "2000",
       "descripcion": "Categoria: Comedia/Drama",
-      "cantidad" : "1"
+      "cantidad" : "1",
+      "categoria" : "pelicula"
       
     },
     {
@@ -14,7 +15,8 @@
          "img":"../Imagenes/imagen02.jpg",
          "precio": "1199",
          "descripcion": "Categoria: Drama/Romantica",
-         "cantidad" : "1"
+         "cantidad" : "1",
+         "categoria" : "pelicula"
        },
        {
         "id": 3,
@@ -22,7 +24,8 @@
          "img":"../Imagenes/imagen03.jpg",
          "precio": "999",
          "descripcion": "Categoria: Musical/Infantil",
-         "cantidad" : "1"
+         "cantidad" : "1",
+         "categoria" : "pelicula"
        },
        {
         "id": 4,
@@ -30,7 +33,8 @@
          "img":"../Imagenes/imagen04.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Suspenso/Drama.",
-         "cantidad" : "1"
+         "cantidad" : "1",
+         "categoria" : "pelicula"
        },
        {
         "id": 5,
@@ -38,7 +42,8 @@
          "img":"../Imagenes/imagen05.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Drama",
-         "cantidad" : "1"
+         "cantidad" : "1",
+         "categoria" : "pelicula"
        },
        {
         "id": 6,
@@ -46,7 +51,8 @@
          "img":"../Imagenes/imagen06.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Accion/Drama",
-         "cantidad" : "1"
+         "cantidad" : "1",
+         "categoria" : "pelicula"
        },
        {
         "id": 7,
@@ -54,7 +60,8 @@
          "img":"../Imagenes/imagen07.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Anime/Infantil",
-         "cantidad" : "1"
+         "cantidad" : "1",
+         "categoria" : "pelicula"
        },
        {
         "id": 8,
@@ -62,7 +69,8 @@
          "img":"../Imagenes/imagen08.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Accion/Drama",
-         "cantidad" : "1"
+         "cantidad" : "1",
+         "categoria" : "pelicula"
        },
        {
         "id": 9,
@@ -70,7 +78,8 @@
          "img":"../Imagenes/imagen09.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Accion/Suspenso",
-         "cantidad" : "1"
+         "cantidad" : "1",
+         "categoria" : "pelicula"
        },
        {
         "id": 10,
@@ -78,6 +87,89 @@
          "img":"../Imagenes/imagen10.jpg",
          "precio": "55000",
          "descripcion": "Categoria: Accion/Drama",
-         "cantidad" : "1"
-       }
+         "cantidad" : "1",
+         "categoria" : "pelicula"
+       },
+       {
+        "id": 11,
+       "titulo": "Barbie",
+        "img": "../Imagenes/imagen.jpg",
+        "precio": "2000",
+        "descripcion": "Categoria: Comedia/Drama",
+        "cantidad" : "1",
+        "categoria" : "Serie"
+        
+      },
+      {
+          "id": 12,
+          "titulo": "Joe Black",
+           "img":"../Imagenes/imagen02.jpg",
+           "precio": "1199",
+           "descripcion": "Categoria: Drama/Romantica",
+           "cantidad" : "1",
+           "categoria" : "Serie"
+         },
+         {
+          "id": 13,
+          "titulo": "El rey Leon",
+           "img":"../Imagenes/imagen03.jpg",
+           "precio": "999",
+           "descripcion": "Categoria: Musical/Infantil",
+           "cantidad" : "1",
+           "categoria" : "Serie"
+         },
+         {
+          "id": 14,
+          "titulo": "OppenHeimer",
+           "img":"../Imagenes/imagen04.jpg",
+           "precio": "55000",
+           "descripcion": "Categoria: Suspenso/Drama.",
+           "cantidad" : "1",
+           "categoria" : "Serie"
+         },
+         {
+          "id": 15,
+          "titulo": "En busca de la felicidad.",
+           "img":"../Imagenes/imagen05.jpg",
+           "precio": "55000",
+           "descripcion": "Categoria: Drama",
+           "cantidad" : "1",
+           "categoria" : "Serie"
+         },
+         {
+          "id": 16,
+          "titulo": "Hombre en Llamas.",
+           "img":"../Imagenes/imagen06.jpg",
+           "precio": "55000",
+           "descripcion": "Categoria: Accion/Drama",
+           "cantidad" : "1",
+           "categoria" : "Serie"
+         },
+         {
+          "id": 17,
+          "titulo": "Mi vecino Totoro.",
+           "img":"../Imagenes/imagen07.jpg",
+           "precio": "55000",
+           "descripcion": "Categoria: Anime/Infantil",
+           "cantidad" : "1",
+           "categoria" : "Serie"
+         },
+         {
+          "id": 18,
+          "titulo": "La mula.",
+           "img":"../Imagenes/imagen08.jpg",
+           "precio": "55000",
+           "descripcion": "Categoria: Accion/Drama",
+           "cantidad" : "1",
+           "categoria" : "Serie"
+         },
+         {
+          "id": 19,
+          "titulo": "El plan perfecto.",
+           "img":"../Imagenes/imagen09.jpg",
+           "precio": "55000",
+           "descripcion": "Categoria: Accion/Suspenso",
+           "cantidad" : "1",
+           "categoria" : "Serie"
+         }
 ]

@@ -10,21 +10,27 @@ export const ItemListContainer = () => {
     //const donde estan las peliculas
    
     const [peliculas, setPeliculas] = useState([]);
-  const categoria = useParams().categoria
-    console.log(peliculas)
-    useEffect(() => {
-     PeliculasCartelera()
-   .then((res) =>{
-    setPeliculas(res);
-
+    const [titulo, setTitulo ] = useState("Productos");
+    const categoria = useParams().categoria;
+   console.log(categoria)
+      
+   useEffect(() => {
+        PeliculasCartelera()
+           .then((res) =>{
+                if(categoria){
+                setPeliculas(res.filter((prod) => prod.categoria === categoria));
+                setTitulo (categoria);
+}      else {
+        setPeliculas(res);
+    }
    })
-   }, [])
+   }, [categoria])
    
     
 
     return (
         <div className="DivContenedor">
-            <ItemList peliculas={peliculas} />
+            <ItemList peliculas={peliculas} titulo={titulo} />
         </div>
     );
 }

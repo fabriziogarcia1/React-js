@@ -13,8 +13,8 @@ export const Navbar = () => {
                 </div>
                 <div className="ItemsNavbar">
                 <ul>
-                    <li><Link className="menu-link" to="/productos/peliculas">Peliculas   </Link></li>
-                    <li><Link className="menu-link" to="/productos/series">Series   </Link></li>
+                    <li><Link className="menu-link" to="/productos/Peliculas">Peliculas   </Link></li>
+                    <li><Link className="menu-link" to="/productos/Series">Series   </Link></li>
                     <li><Link className="menu-link" to="/Contacto">Contacto </Link></li>
                     <li><Link className="menu-link" to="#"> <CartWidget />  </Link></li>
                 </ul>
