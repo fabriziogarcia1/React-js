@@ -1,0 +1,31 @@
+.titulo_pagina{
+    font-size: 3em;
+    color: white;
+}
+.formulario_contacto{
+    display: grid;
+    grid-template-columns: auto;
+}
+.input_contacto{
+    width: 20rem;
+    margin-top: 5px;
+    height: 3rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+.boton_enviar{
+    width: 10rem;
+    height: 2rem;
+    margin-top: 5px;
+    background: rgb(30, 5, 87);
+    border-color: rgb(49, 17, 194);
+    border-radius: 10px;
+    color: white;
+}
+.boton_enviar:hover{
+    background: rgb(42, 141, 207);
+    border-color: aqua;
+    transition: 1s;
+    cursor: pointer;
+    color: black;
+}

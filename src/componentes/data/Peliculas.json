@@ -6,7 +6,8 @@
       "precio": "2000",
       "descripcion": "Categoria: Comedia/Drama",
       "cantidad" : "1",
-      "categoria" : "pelicula"
+      "categoria" : "Peliculas",
+      "stock" : 5
       
     },
     {
@@ -16,7 +17,8 @@
          "precio": "1199",
          "descripcion": "Categoria: Drama/Romantica",
          "cantidad" : "1",
-         "categoria" : "pelicula"
+         "categoria" : "Peliculas",
+         "stock" : 5
        },
        {
         "id": 3,
@@ -25,7 +27,8 @@
          "precio": "999",
          "descripcion": "Categoria: Musical/Infantil",
          "cantidad" : "1",
-         "categoria" : "pelicula"
+         "categoria" : "Peliculas",
+         "stock" : 5
        },
        {
         "id": 4,
@@ -34,7 +37,8 @@
          "precio": "55000",
          "descripcion": "Categoria: Suspenso/Drama.",
          "cantidad" : "1",
-         "categoria" : "pelicula"
+         "categoria" : "Peliculas",
+         "stock" : 5
        },
        {
         "id": 5,
@@ -43,7 +47,8 @@
          "precio": "55000",
          "descripcion": "Categoria: Drama",
          "cantidad" : "1",
-         "categoria" : "pelicula"
+         "categoria" : "Peliculas",
+         "stock" : 5
        },
        {
         "id": 6,
@@ -52,7 +57,8 @@
          "precio": "55000",
          "descripcion": "Categoria: Accion/Drama",
          "cantidad" : "1",
-         "categoria" : "pelicula"
+         "categoria" : "Peliculas",
+         "stock" : 5
        },
        {
         "id": 7,
@@ -61,7 +67,8 @@
          "precio": "55000",
          "descripcion": "Categoria: Anime/Infantil",
          "cantidad" : "1",
-         "categoria" : "pelicula"
+         "categoria" : "Peliculas",
+         "stock" : 5
        },
        {
         "id": 8,
@@ -70,7 +77,8 @@
          "precio": "55000",
          "descripcion": "Categoria: Accion/Drama",
          "cantidad" : "1",
-         "categoria" : "pelicula"
+         "categoria" : "Peliculas",
+         "stock" : 5
        },
        {
         "id": 9,
@@ -79,7 +87,8 @@
          "precio": "55000",
          "descripcion": "Categoria: Accion/Suspenso",
          "cantidad" : "1",
-         "categoria" : "pelicula"
+         "categoria" : "Peliculas",
+         "stock" : 5
        },
        {
         "id": 10,
@@ -88,44 +97,49 @@
          "precio": "55000",
          "descripcion": "Categoria: Accion/Drama",
          "cantidad" : "1",
-         "categoria" : "pelicula"
+         "categoria" : "Peliculas",
+         "stock" : 5
        },
        {
         "id": 11,
-       "titulo": "Barbie",
+       "titulo": "Breaking Bad",
         "img": "../Imagenes/imagen.jpg",
         "precio": "2000",
         "descripcion": "Categoria: Comedia/Drama",
         "cantidad" : "1",
-        "categoria" : "Serie"
+        "categoria" : "Series",
+        "stock" : 5
         
       },
       {
           "id": 12,
-          "titulo": "Joe Black",
+          "titulo": "The fresh of Prince",
            "img":"../Imagenes/imagen02.jpg",
            "precio": "1199",
            "descripcion": "Categoria: Drama/Romantica",
            "cantidad" : "1",
-           "categoria" : "Serie"
+           "categoria" : "Series",
+           "stock" : 5
          },
          {
           "id": 13,
-          "titulo": "El rey Leon",
+          "titulo": "Sherlock Holmes",
            "img":"../Imagenes/imagen03.jpg",
            "precio": "999",
            "descripcion": "Categoria: Musical/Infantil",
            "cantidad" : "1",
-           "categoria" : "Serie"
+           "categoria" : "Series",
+           "stock" : 5
          },
          {
           "id": 14,
-          "titulo": "OppenHeimer",
+          "titulo": "Malcom",
            "img":"../Imagenes/imagen04.jpg",
            "precio": "55000",
            "descripcion": "Categoria: Suspenso/Drama.",
            "cantidad" : "1",
-           "categoria" : "Serie"
+           "categoria" : "Series",
+           "stock" : 5
          },
          {
           "id": 15,
@@ -134,7 +148,8 @@
            "precio": "55000",
            "descripcion": "Categoria: Drama",
            "cantidad" : "1",
-           "categoria" : "Serie"
+           "categoria" : "Series",
+           "stock" : 5
          },
          {
           "id": 16,
@@ -143,7 +158,8 @@
            "precio": "55000",
            "descripcion": "Categoria: Accion/Drama",
            "cantidad" : "1",
-           "categoria" : "Serie"
+           "categoria" : "Series",
+           "stock" : 5
          },
          {
           "id": 17,
@@ -152,7 +168,8 @@
            "precio": "55000",
            "descripcion": "Categoria: Anime/Infantil",
            "cantidad" : "1",
-           "categoria" : "Serie"
+           "categoria" : "Series",
+           "stock" : 5
          },
          {
           "id": 18,
@@ -161,7 +178,8 @@
            "precio": "55000",
            "descripcion": "Categoria: Accion/Drama",
            "cantidad" : "1",
-           "categoria" : "Serie"
+           "categoria" : "Series",
+           "stock" : 5
          },
          {
           "id": 19,
@@ -170,6 +188,7 @@
            "precio": "55000",
            "descripcion": "Categoria: Accion/Suspenso",
            "cantidad" : "1",
-           "categoria" : "Serie"
+           "categoria" : "Series",
+           "stock" : 5
          }
 ]
