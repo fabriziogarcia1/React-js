@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import './card.css';
 import ItemList from "./ItemList/index.jsx";
-import { PeliculasCartelera } from '../pedirproductos/PeliculasCartelera.js';
 import { useParams } from "react-router-dom";
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "../Firebase/config";
+
 
 
 
@@ -12,18 +14,25 @@ export const ItemListContainer = () => {
     const [peliculas, setPeliculas] = useState([]);
     const [titulo, setTitulo ] = useState("Productos");
     const categoria = useParams().categoria;
-   console.log(categoria)
+  
       
    useEffect(() => {
-        PeliculasCartelera()
-           .then((res) =>{
-                if(categoria){
-                setPeliculas(res.filter((prod) => prod.categoria === categoria));
-                setTitulo (categoria);
-}      else {
-        setPeliculas(res);
-    }
-   })
+
+    const productosRef = collection(db, "Productos");
+const q = categoria ? query(productosRef, where("categoria", "==", categoria)): productosRef;
+    
+    getDocs(q)
+    .then((resp) => {
+     
+        setPeliculas(
+            resp.docs.map((doc) =>{
+                return { ...doc.data(), id: doc.id }
+            })
+        )
+    
+    })
+
+       
    }, [categoria])
    
     

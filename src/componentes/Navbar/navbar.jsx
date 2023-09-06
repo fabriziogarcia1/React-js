@@ -1,5 +1,5 @@
 import App from "../../App.js";
-import CartWidget  from "../cartwidget/carrito.jsx";
+import CartWidget  from "../cartwidget/Cart.jsx";
 import './navbar.css';
 import { Link } from "react-router-dom";
 
@@ -16,7 +16,7 @@ export const Navbar = () => {
                     <li><Link className="menu-link" to="/productos/Peliculas">Peliculas   </Link></li>
                     <li><Link className="menu-link" to="/productos/Series">Series   </Link></li>
                     <li><Link className="menu-link" to="/Contacto">Contacto </Link></li>
-                    <li><Link className="menu-link" to="#"> <CartWidget />  </Link></li>
+                    <li><Link className="menu-link" to="/Carrito"> <CartWidget />  </Link></li>
                 </ul>
                 </div>
             </nav>

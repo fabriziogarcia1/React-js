@@ -4,10 +4,21 @@ import  ItemListContainer  from './componentes/ItemListContainer/ItemListContain
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contacto from './componentes/pags/Contacto';
 import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer';
-import Cart from './componentes/ItemDetailContainer/cart';
+import Carrito from './componentes/Carrito';
+import { CartProvider } from './componentes/context/CartContext';
+import Checkout from "./componentes/checkout";
+
+
+
 function App() {
+   
+  
+
   return (
+    
    <>
+   <CartProvider>
+   
    <BrowserRouter>
 
          <Navbar />
@@ -17,12 +28,11 @@ function App() {
              <Route path='/productos/:categoria'   element ={<ItemListContainer />} /> 
              <Route path='/Contacto' element={<Contacto/>}    /> 
              <Route path='/item/:id' element={<ItemDetailContainer  />}    />
-             <Route path='/cart'   element={<Cart/>} /> 
-             
+             <Route path='/carrito'   element={<Carrito />} />
+             <Route path='/checkout'   element={< Checkout />} />
              </Routes>
     </BrowserRouter>
-   
-    
+    </CartProvider>
    </>
   );
 }
